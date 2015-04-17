@@ -71,10 +71,6 @@ sheet accounts or P&L accounts. Every financial transaction (e.g. a payment, an
 invoice) impacts accounts by moving value from one account (credit) to an other
 account (debit).
 
-Some accounts can be known by different names e.g. Sales Ledger = Account
-Receivable = Debtor control; or Purchase Ledger = Account Payable = Creditor
-control.
-
 .. h:div:: force-right
 
    .. highlights:: Balance = Debit - Credit
