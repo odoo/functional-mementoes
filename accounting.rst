@@ -147,11 +147,11 @@ Reconciliation
 Reconciliation is the process of linking journal items of a specific account,
 matching credits and debits.
 
-Its primary purpose is to link payments to their related invoices across the
-Sales Ledger or Puurchase Ledger in order to mark invoices. These may be part
-or fully paid, and it is worth while communicating with the other paerty to
-make sure they reconcile in the same way.  This is done by doing a
-reconciliation on the *Account Receivable* or *Account Payable* account.
+Its primary purpose is to link payments to their related invoices (sales
+or purchase) in order to mark invoices as paid or send reminders
+[#reminders]_. Invoices may be partially or fully paid. This is done by
+performing a reconciliation on the *Accounts Receivable* or *Accounts
+Payable* account.
 
 An invoice is marked as paid when its Accounts Receivable journal items are
 reconciled with the related payment journal items.
@@ -263,3 +263,6 @@ There are two approaches to manage checks and internal wire transfer:
    +-------------------------+--------------+------------+---------------+---------------+
    |Bank                     |100           |            |               |Statement XYZ  |
    +-------------------------+--------------+------------+---------------+---------------+
+
+.. [#reminders] internal or external depending whether the invoice is a 
+                customer or supplier invoice.
