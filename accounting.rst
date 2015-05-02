@@ -83,12 +83,27 @@ account (debit).
 Journal Entries
 ===============
 
-Every financial document of the company (e.g. an invoice, a bank statement, a
-pay slip, a capital increase contract) is recorded as a journal entry,
-impacting several accounts.
+Every financial transaction of a company (e.g. an invoice, a bank statement, a
+pay slip, a capital increase contract) is recorded as a journal entry. Using
+**Double Entry** accounting, every transaction **MUST** be entered in to at
+least 2 accounts with debits and credits, and the debits must match the
+credits to *balance* the transaction.
 
-For a journal entry to be *balanced*, the sum of all its debits must be equal
-to the sum of all its credits.
+Debits and Credits can easily seem confusing, that is because when you recieve
+the bank statements, the columns are usually (but not always) labeled from the
+bank's perspective. Therefore, what they label as a *debit*, you will treat as
+a *credit*. Also, some of your accounts increase in value with a debit, others
+increase with a debit.  To further complicate matters, some banks will use
+positive and negative numbers, others will show a positive credit and a
+positive debit.
+
+To help accountants, there are some standard conventions, for example, Debits
+are recorded on the left and Credits on the right.
+
+Some examples of accounts that increase in value when debited are: expenses,
+Assets, Losses.  Examples of accounts that increase in value with a credit
+are: Income, Sales, Liabilities
+
 
 .. h:div:: force-right journal-entries
 
@@ -132,9 +147,11 @@ Reconciliation
 Reconciliation is the process of linking journal items of a specific account,
 matching credits and debits.
 
-Its primary purpose is to link payments to their related invoices in order to
-mark invoices that are paid and clear the customer statement. This is done by
-doing a reconciliation on the *Accounts Receivable* account.
+Its primary purpose is to link payments to their related invoices (sales
+or purchase) in order to mark invoices as paid or send reminders
+[#reminders]_. Invoices may be partially or fully paid. This is done by
+performing a reconciliation on the *Accounts Receivable* or *Accounts
+Payable* account.
 
 An invoice is marked as paid when its Accounts Receivable journal items are
 reconciled with the related payment journal items.
@@ -246,3 +263,6 @@ There are two approaches to manage checks and internal wire transfer:
    +-------------------------+--------------+------------+---------------+---------------+
    |Bank                     |100           |            |               |Statement XYZ  |
    +-------------------------+--------------+------------+---------------+---------------+
+
+.. [#reminders] internal or external depending whether the invoice is a 
+                customer or supplier invoice.
