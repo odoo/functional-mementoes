@@ -14,7 +14,7 @@
 
 import sys
 import os
-DIR = os.path.dirname(__file__)
+DIR = os.path.dirname("__file__")
 sys.path.insert(
     0, os.path.abspath(
         os.path.join(DIR, '_themes')))
@@ -251,6 +251,9 @@ texinfo_documents = [
    u'fp, xmo', 'UnderstandingAccountingForEntrepreneurs', 'One line description of project.',
    'Miscellaneous'),
 ]
+
+locale_dirs = ['locale/']
+gettext_compact = False
 
 # Documents to append as an appendix to all manuals.
 #texinfo_appendices = []
