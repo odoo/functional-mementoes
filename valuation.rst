@@ -4,6 +4,8 @@
 Inventory Valuations
 ====================
 
+.. _CostingMethod:
+
 Costing Method
 ==============
 
@@ -175,6 +177,8 @@ price.
 For "real price", the costing is further refined by the removal strategy (on
 the warehouse location or product category), FIFO by default.
 
+.. _PeriodicInventoryValuation:
+
 Periodic Inventory Valuation
 ============================
 
@@ -263,6 +267,8 @@ its cost to know the inventory value of the company.
    14000 Inventory            $600
    14700 Inventory Variations      $600
    ========================== ==== ====
+
+.. _PerpetualInventoryValuation:
 
 Perpetual Inventory Valuation
 =============================
