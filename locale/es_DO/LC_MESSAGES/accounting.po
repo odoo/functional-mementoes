@@ -1,0 +1,462 @@
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Odoo Business 0.1\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2015-05-02 13:55-0400\n"
+"PO-Revision-Date: 2015-05-02 15:04-0400\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Last-Translator: Eneldo Serrata <eneldoserrata@gmail.com>\n"
+"Language-Team: \n"
+"Language: es_DO\n"
+"X-Generator: Poedit 1.7.6\n"
+
+#: ../../accounting.rst:5
+msgid "Accounting Memento For Entrepreneurs (US GAAP)"
+msgstr "Memento contable para emprendedores (US GAAP)"
+
+#: ../../accounting.rst:11
+msgid ""
+"The **Profit and Loss** (P&L) report shows the performance of the company "
+"over a specific period (usually the current year)."
+msgstr ""
+"El ** informe de pérdidas y ganancias ** (P & L) muestra el funcionamiento "
+"de la empresa durante un período específico (generalmente el año actual)."
+
+#: ../../accounting.rst:16
+msgid ""
+"The **Gross Profit** equals the revenues from sales minus the cost of goods "
+"sold."
+msgstr ""
+"El ** beneficio bruto ** equivale a los ingresos de las ventas menos el "
+"costo de la mercancía vendida."
+
+#: ../../accounting.rst:21
+msgid ""
+"**Operating Expenses** (OPEX) include administration, sales and R&D "
+"salaries as well as rent and utilities, miscellaneous costs, insurances, … "
+"anything beyond the costs of products sold."
+msgstr ""
+"** Operación gastos ** (OPEX) incluyen administración, ventas y salarios "
+"R&D, así como alquiler y servicios públicos, gastos Misceláneos, "
+"seguros,... nada más allá de los costos de productos vendidos."
+
+#: ../../accounting.rst:27
+msgid ""
+"The **Balance Sheet** is a snapshot of the company's finances at a specific "
+"date (as opposed to the Profit and Loss which is an analysis over a period)"
+msgstr ""
+"El ** del Balance ** es una instantánea de las finanzas de la empresa en "
+"una fecha específica (en comparación con las ganancias y pérdidas que es un "
+"análisis sobre un período)"
+
+#: ../../accounting.rst:32
+msgid ""
+"**Assets** represent the company's wealth, things it owns. Fixed assets "
+"includes building and offices, current assets include bank accounts and "
+"cash. A client owing money is an asset. An employee is not an asset."
+msgstr ""
+"** Activos representan la riqueza de la compañía, las cosas que posee. "
+"Incluye activos fijos y oficinas, activos corrientes incluyen las cuentas "
+"bancarias y dinero en efectivo. Un cliente debiendo dinero es un activo. Un "
+"empleado no es un activo."
+
+#: ../../accounting.rst:38
+msgid ""
+"**Liabilities** are obligations from past events that the company will have "
+"to pay in the future (utility bills, debts, unpaid suppliers)."
+msgstr ""
+"** Los pasivos son obligaciones de hechos del pasado que la empresa tendrá "
+"que pagar en el futuro (facturas, deudas sin pagar proveedores)."
+
+#: ../../accounting.rst:43
+msgid ""
+"**Equity** is the amount of the funds contributed by the owners (founders "
+"or shareholders) plus previously retained earnings (or losses)."
+msgstr ""
+"**Equity** es la cantidad de los fondos aportados por los propietarios "
+"(fundadores o accionistas) plus previamente retenidos las ganancias (o "
+"pérdidas)."
+
+#: ../../accounting.rst:48
+msgid "Each year, net profits (or losses) are reported to retained earnings."
+msgstr ""
+"Cada año, las ganancias netas (o pérdidas) se ha informado que las "
+"utilidades retenidas."
+
+#: ../../accounting.rst:54
+msgid ""
+"What is owned (an asset) has been financed through debts to reimburse "
+"(liabilities) or equity (profits, capital)."
+msgstr ""
+"¿Qué es propiedad (activo) ha sido financiada mediante deudas a reembolsar "
+"(pasivo) o equidad (ganancias, capital)."
+
+#: ../../accounting.rst:57
+msgid ""
+"A difference is made between buying an assets (e.g. a building) and "
+"expenses (e.g. fuel). Assets have an intrinsic value over time, versus "
+"expenses having value in them being consumed for the company to \"work\"."
+msgstr ""
+"Se hace una diferencia entre comprar un activos (por ejemplo un edificio) y "
+"gastos (por ejemplo combustible). Los activos tienen un valor intrínseco en "
+"el tiempo, frente a los gastos teniendo valor en ellos siendo consumidos "
+"por la empresa para \"trabajar\"."
+
+#: ../../accounting.rst:64
+msgid "Assets = Liabilities + Equity"
+msgstr "Activos = pasivos + capital"
+
+#: ../../accounting.rst:67
+msgid "Chart of Accounts"
+msgstr "Plan contable"
+
+#: ../../accounting.rst:69
+msgid ""
+"The **chart of accounts** lists all the accounts, whether they are balance "
+"sheet accounts or P&L accounts. Every financial transaction (e.g. a "
+"payment, an invoice) impacts accounts by moving value from one account "
+"(credit) to an other account (debit)."
+msgstr ""
+"El ** tabla de cuentas ** enumera todas las cuentas, si son cuentas de "
+"balance o P & L. Todas las transacciones financieras (por ejemplo un pago, "
+"una factura) impactos de cuentas moviendo el valor de una cuenta (crédito) "
+"a otra cuenta (débito)."
+
+#: ../../accounting.rst:76
+msgid "Balance = Debit - Credit"
+msgstr "Balance = débito - crédito"
+
+#: ../../accounting.rst:84
+msgid "Journal Entries"
+msgstr "Asientos contables"
+
+#: ../../accounting.rst:86
+msgid ""
+"Every financial document of the company (e.g. an invoice, a bank statement, "
+"a pay slip, a capital increase contract) is recorded as a journal entry, "
+"impacting several accounts."
+msgstr ""
+"Todos los documentos financieros de la empresa (por ejemplo una factura, "
+"una declaración del banco, una nómina, un contrato de ampliación de "
+"capital) se registran como una entrada del diario, afectando varias cuentas."
+
+#: ../../accounting.rst:90
+msgid ""
+"For a journal entry to be *balanced*, the sum of all its debits must be "
+"equal to the sum of all its credits."
+msgstr ""
+"Para una entrada del diario a ser * equilibrada *, la suma de todos sus "
+"débitos debe ser igual a la suma de todos sus créditos."
+
+#: ../../accounting.rst:95
+msgid "examples of accounting entries for various transactions. Example:"
+msgstr ""
+"ejemplos de asientos contables para las distintas transacciones. Ejemplo:"
+
+#: ../../accounting.rst:97
+msgid "Example 1: Customer Invoice:"
+msgstr "Ejemplo 1: Factura de cliente:"
+
+#: ../../accounting.rst:99 ../../accounting.rst:117
+msgid "Explanation:"
+msgstr "Explicación:"
+
+#: ../../accounting.rst:101
+msgid "You generate a revenue of $1,000"
+msgstr "Genera unos ingresos de $1.000"
+
+#: ../../accounting.rst:102
+msgid "You have a tax to pay of $90"
+msgstr "Tienes un impuesto a pagar de $90"
+
+#: ../../accounting.rst:103
+msgid "The customer owes $1,090"
+msgstr "El cliente debe $1.090"
+
+#: ../../accounting.rst:105 ../../accounting.rst:122
+msgid "Configuration:"
+msgstr "Configuración:"
+
+#: ../../accounting.rst:107
+msgid "Income: defined on the product, or the product category"
+msgstr "Ingresos: definido en el producto, o la categoría de productos"
+
+#: ../../accounting.rst:108 ../../accounting.rst:125
+msgid "Account Receivable: defined on the customer"
+msgstr "Cuentas por cobrar: definido en el cliente"
+
+#: ../../accounting.rst:109
+msgid "Tax: defined on the tax set on the invoice line"
+msgstr "Impuestos: define el impuesto establecido en la línea de factura"
+
+#: ../../accounting.rst:111
+msgid ""
+"The fiscal position used on the invoice may have a rule that replaces the "
+"Income Account or the tax defined on the product by another one."
+msgstr ""
+"La situación fiscal en la factura puede tener una regla que sustituye a la "
+"cuenta de ingresos o los impuestos definidos en el producto por otro."
+
+#: ../../accounting.rst:115
+msgid "Example 2: Customer Payment:"
+msgstr "Ejemplo 2: Pago del cliente:"
+
+#: ../../accounting.rst:119
+msgid "Your customer owes $1,090 less"
+msgstr "Su cliente debe $1.090 menos"
+
+#: ../../accounting.rst:120
+msgid "Your receive $1,090 on your bank account"
+msgstr "Tu recibir $1.090 en tu cuenta bancaria"
+
+#: ../../accounting.rst:124
+msgid "Bank Account: defined on the related bank journal"
+msgstr "Cuenta bancaria: definido en la revista Banco relacionados"
+
+#: ../../accounting.rst:130 ../../accounting.rst:217 ../../accounting.rst:227
+#: ../../accounting.rst:243
+msgid "Reconciliation"
+msgstr "Reconciliación"
+
+#: ../../accounting.rst:132
+msgid ""
+"Reconciliation is the process of linking journal items of a specific "
+"account, matching credits and debits."
+msgstr ""
+"La reconciliación es el proceso de vincular artículos de diario de una "
+"cuenta específica, coincidencia de débitos y créditos."
+
+#: ../../accounting.rst:135
+msgid ""
+"Its primary purpose is to link payments to their related invoices in order "
+"to mark invoices that are paid and clear the customer statement. This is "
+"done by doing a reconciliation on the *Accounts Receivable* account."
+msgstr ""
+"Su principal propósito es vincular los pagos a sus correspondientes "
+"facturas para marcar las facturas que se pagan y claro la instrucción del "
+"cliente. Esto se realiza haciendo una reconciliación en el * cuentas por "
+"cobrar * cuenta."
+
+#: ../../accounting.rst:139
+msgid ""
+"An invoice is marked as paid when its Accounts Receivable journal items are "
+"reconciled with the related payment journal items."
+msgstr ""
+"Una factura está marcada como pagado cuando sus cuentas por cobrar "
+"artículos de revista se reconcilian con los artículos de revista "
+"relacionados con pago."
+
+#: ../../accounting.rst:142
+msgid "Reconciliation is performed automatically by the system when:"
+msgstr "Reconciliación se realiza automáticamente por el sistema cuando:"
+
+#: ../../accounting.rst:144
+msgid "the payment is registered directly on the invoice"
+msgstr "el pago se registra directamente en la factura"
+
+#: ../../accounting.rst:145
+msgid ""
+"the links between the payments and the invoices are detected at the bank "
+"matching process"
+msgstr ""
+"los vínculos entre los pagos y las facturas son detectados en el banco que "
+"empareja proceso"
+
+#: ../../accounting.rst:152
+msgid "Customer Statement Example"
+msgstr "Ejemplo de declaración de cliente"
+
+#: ../../accounting.rst:157
+msgid "Accounts Receivable"
+msgstr "Cuentas por cobrar"
+
+#: ../../accounting.rst:157 ../../accounting.rst:217 ../../accounting.rst:227
+#: ../../accounting.rst:243
+msgid "Debit"
+msgstr "Débito"
+
+#: ../../accounting.rst:157 ../../accounting.rst:217 ../../accounting.rst:227
+#: ../../accounting.rst:243
+msgid "Credit"
+msgstr "Crédito"
+
+#: ../../accounting.rst:159
+msgid "Invoice 1"
+msgstr "Factura 1"
+
+#: ../../accounting.rst:159 ../../accounting.rst:219 ../../accounting.rst:221
+#: ../../accounting.rst:229 ../../accounting.rst:231 ../../accounting.rst:245
+#: ../../accounting.rst:247
+msgid "100"
+msgstr "100"
+
+#: ../../accounting.rst:161
+msgid "Payment 1.1"
+msgstr "Pago 1.1"
+
+#: ../../accounting.rst:161
+msgid "70"
+msgstr "70"
+
+#: ../../accounting.rst:163
+msgid "Invoice 2"
+msgstr "Factura 2"
+
+#: ../../accounting.rst:163 ../../accounting.rst:167
+msgid "65"
+msgstr "65"
+
+#: ../../accounting.rst:165
+msgid "Payment 1.2"
+msgstr "Pago 1.2"
+
+#: ../../accounting.rst:165
+msgid "30"
+msgstr "30"
+
+#: ../../accounting.rst:167
+msgid "Payment 2"
+msgstr "Pago 2"
+
+#: ../../accounting.rst:169
+msgid "Invoice 3"
+msgstr "Factura 3"
+
+#: ../../accounting.rst:169 ../../accounting.rst:173
+msgid "50"
+msgstr "50"
+
+#: ../../accounting.rst:173
+msgid "Total To Pay"
+msgstr "Total a Pagar"
+
+#: ../../accounting.rst:178
+msgid "Bank Reconciliation"
+msgstr "Conciliación bancaria"
+
+#: ../../accounting.rst:180
+msgid ""
+"Bank reconciliation is the matching of bank statement lines (provided by "
+"your bank) with transactions recorded internally (payments to suppliers or "
+"from customers). For each line in a bank statement, it can be:"
+msgstr ""
+"Conciliación bancaria es la conciliación de banco declaración líneas "
+"(proporcionadas por su banco) con transacciones registradas internamente "
+"(pagos a proveedores o clientes). Para cada línea en un extracto bancario, "
+"puede ser:"
+
+#: ../../accounting.rst:185
+msgid "matched with a previously recorded payment:"
+msgstr "emparejado con un pago previamente grabado:"
+
+#: ../../accounting.rst:185
+msgid ""
+"a payment is registered when a check is received from a customer, then "
+"matched when checking the bank statement"
+msgstr ""
+"el pago se registra cuando se recibe un cheque de un cliente, luego "
+"emparejado al comprobar el estado de cuenta"
+
+#: ../../accounting.rst:189
+msgid "recorded as a new payment:"
+msgstr "registrado como una nueva forma de pago:"
+
+#: ../../accounting.rst:188
+msgid ""
+"the payment's journal entry is created and :ref:`reconciled <accounting/"
+"reconciliation>` with the related invoice when processing the bank statement"
+msgstr ""
+"se crea la entrada del diario de los pagos y: ref:' conciliar <accounting "
+"econciliation=\"\">' con la factura relacionada al procesar el extracto "
+"bancario</accounting>"
+
+#: ../../accounting.rst:192
+msgid "recorded as another transaction:"
+msgstr "registrado como otra transacción:"
+
+#: ../../accounting.rst:192
+msgid "bank transfer, direct charge, etc."
+msgstr "carga directa, transferencia bancaria, etc."
+
+#: ../../accounting.rst:194
+msgid ""
+"Odoo should automatically reconcile most transactions, only a few of them "
+"should need manual review. When the bank reconciliation process is "
+"finished, the balance on the bank account in Odoo should match the bank "
+"statement's balance."
+msgstr ""
+"Odoo automáticamente debe conciliar más operaciones, sólo unos pocos de "
+"ellos es necesario revisión manual. Cuando termine el proceso de "
+"conciliación bancaria, el saldo de la cuenta bancaria en Odoo debe "
+"coincidir con saldo del extracto del banco."
+
+#: ../../accounting.rst:202
+msgid "Checks Handling"
+msgstr "Escribir cheques"
+
+#: ../../accounting.rst:204
+msgid "There are two approaches to manage checks and internal wire transfer:"
+msgstr ""
+"Existen dos enfoques de la gestión de cheques y transferencias internas:"
+
+#: ../../accounting.rst:206
+msgid "Two journal entries and a reconciliation"
+msgstr "Dos entradas de diario y una reconciliación"
+
+#: ../../accounting.rst:207
+msgid "One journal entry and a bank reconciliation"
+msgstr "Entrada de un diario y una conciliación bancaria"
+
+#: ../../accounting.rst:211
+msgid ""
+"The first journal entry is created by registering the payment on the "
+"invoice. The second one is created when registering the bank statement."
+msgstr ""
+"La primera entrada del diario es creada por registrar el pago de la "
+"factura. El segundo que se crea cuando se registre el extracto bancario."
+
+#: ../../accounting.rst:217 ../../accounting.rst:227 ../../accounting.rst:243
+msgid "Account"
+msgstr "Cuenta"
+
+#: ../../accounting.rst:219 ../../accounting.rst:245
+msgid "Account Receivable"
+msgstr "Cuenta a cobrar"
+
+#: ../../accounting.rst:219 ../../accounting.rst:245
+msgid "Invoice ABC"
+msgstr "Factura ABC"
+
+#: ../../accounting.rst:221 ../../accounting.rst:229
+msgid "Undeposited funds"
+msgstr "Fondos undeposited"
+
+#: ../../accounting.rst:221 ../../accounting.rst:229
+#, fuzzy
+msgid "Check 0123"
+msgstr "Cheque 0123"
+
+#: ../../accounting.rst:231 ../../accounting.rst:247
+msgid "Bank"
+msgstr "Banco"
+
+#: ../../accounting.rst:236
+msgid ""
+"A journal entry is created by registering the payment on the invoice. When "
+"reconciling the bank statement, the statement line is linked to the "
+"existing journal entry."
+msgstr ""
+"Se crea una entrada de diario al registrar el pago de la factura. Cuando "
+"conciliar el extracto bancario, la línea de declaración está vinculada a la "
+"entrada de diario existente."
+
+#: ../../accounting.rst:243
+msgid "Bank Statement"
+msgstr "Extracto bancario"
+
+#: ../../accounting.rst:247
+msgid "Statement XYZ"
+msgstr "Declaración de XYZ"

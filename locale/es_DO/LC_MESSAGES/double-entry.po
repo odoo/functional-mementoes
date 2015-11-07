@@ -1,0 +1,547 @@
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Odoo Business 0.1\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2015-05-02 13:55-0400\n"
+"PO-Revision-Date: 2015-05-02 14:55-0400\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Last-Translator: Eneldo Serrata <eneldoserrata@gmail.com>\n"
+"Language-Team: \n"
+"Language: es_DO\n"
+"X-Generator: Poedit 1.7.6\n"
+
+#: ../../double-entry.rst:5
+msgid "Double-Entry Inventory Management"
+msgstr "Gestión de inventario de doble entrada"
+
+#: ../../double-entry.rst:7
+msgid ""
+"A double-entry inventory has no stock input, output (disparition of "
+"products) or transformation. Instead, all operations are stock moves "
+"between locations (possibly virtual)."
+msgstr ""
+"Un inventario de la partida doble no tiene entrada de stock, salida "
+"(disparition de productos) o transformación. En cambio, todas las "
+"operaciones son movimientos de stock entre ubicaciones (posiblemente "
+"virtuales)."
+
+#: ../../double-entry.rst:16
+msgid "Operations"
+msgstr "Operaciones"
+
+#: ../../double-entry.rst:18
+msgid ""
+"Stock moves represent the transit of goods and materials between locations."
+msgstr ""
+"Movimientos de stock representan el tránsito de mercancías y materiales "
+"entre ubicaciones."
+
+#: ../../double-entry.rst:30
+msgid "Production Order"
+msgstr "Orden de producción"
+
+#: ../../double-entry.rst:24
+msgid "Consume:"
+msgstr "Consumir:"
+
+#: ../../double-entry.rst:0
+msgid "2 Wheels: Stock → Production"
+msgstr "2 ruedas: Stock → producción"
+
+#: ../../double-entry.rst:0
+msgid "1 Bike Frame: Stock → Production"
+msgstr "Cuadro de la 1 bicicleta: Stock → producción"
+
+#: ../../double-entry.rst:26
+msgid "Produce:"
+msgstr "Producir:"
+
+#: ../../double-entry.rst:27
+msgid "1 Bicycle: Production → Stock"
+msgstr "1 bicicleta: producción → Stock"
+
+#: ../../double-entry.rst:30 ../../double-entry.rst:45
+#: ../../double-entry.rst:52 ../../double-entry.rst:57
+#: ../../double-entry.rst:64 ../../double-entry.rst:72
+msgid "Configuration:"
+msgstr "Configuración:"
+
+#: ../../double-entry.rst:0
+msgid "Stock: the location the Manufacturing Order is initiated from"
+msgstr "Acción: la ubicación de la orden de fabricación se inicia desde"
+
+#: ../../double-entry.rst:0
+msgid "Production: on the product form, field \"Production Location\""
+msgstr ""
+"Producción: en el formulario del producto, campo \"Localización de la "
+"producción\""
+
+#: ../../double-entry.rst:36
+msgid "Drop-shipping"
+msgstr "Venta directa (Drop-shipping)"
+
+#: ../../double-entry.rst:33
+msgid "1 Bicycle: Supplier → Customer"
+msgstr "1 bicicleta: proveedor → cliente"
+
+#: ../../double-entry.rst:36
+msgid "Configurarion:"
+msgstr "Configuracion:"
+
+#: ../../double-entry.rst:0
+msgid "Supplier: on the product form"
+msgstr "Proveedor: en el formulario del producto"
+
+#: ../../double-entry.rst:0
+msgid "Customer: on the sale order itself"
+msgstr "Cliente: en el pedido de venta propio"
+
+#: ../../double-entry.rst:45
+msgid "Client Delivery"
+msgstr "Entrega al cliente"
+
+#: ../../double-entry.rst:39
+msgid "Pick"
+msgstr "Recogida"
+
+#: ../../double-entry.rst:40
+msgid "1 Bicycle: Stock → Packing Zone"
+msgstr "1 bicicleta: Almacen → embalaje zona"
+
+#: ../../double-entry.rst:41
+msgid "Pack"
+msgstr "Paquete"
+
+#: ../../double-entry.rst:42
+msgid "1 Bicycle: Packing Zone → Output"
+msgstr "1 bicicleta: zona de empaque → salida"
+
+#: ../../double-entry.rst:43
+msgid "Shipping"
+msgstr "Envío"
+
+#: ../../double-entry.rst:44
+msgid "1 Bicycle: Output → Customer"
+msgstr "1 bicicleta: salida al → cliente"
+
+#: ../../double-entry.rst:0
+msgid "on the pick+pack+ship route for the warehouse"
+msgstr "en la selección + pack + ruta de la nave para el almacén"
+
+#: ../../double-entry.rst:52
+msgid "Inter-Warehouse transfer"
+msgstr "Transferencia entre almacenes"
+
+#: ../../double-entry.rst:49
+msgid "Transfer:"
+msgstr "Transferencia:"
+
+#: ../../double-entry.rst:0
+msgid "1 Bicycle: Warehouse 1 → Transit"
+msgstr "1 bicicleta: 1 → tránsito del almacén"
+
+#: ../../double-entry.rst:0
+msgid "1 Bicycle: Transit → Warehouse 2"
+msgstr "1 bicicleta: tránsito → almacén 2"
+
+#: ../../double-entry.rst:0
+msgid "Warehouse 2: the location the transfer is initiated from"
+msgstr "Almacén 2: la ubicación de la transferencia se inicia desde"
+
+#: ../../double-entry.rst:0
+msgid "Warehouse 1: on the transit route"
+msgstr "Almacén 1: en la ruta de tránsito"
+
+#: ../../double-entry.rst:57
+msgid "Broken Product (scrapped)"
+msgstr "Producto roto (Desguazado)"
+
+#: ../../double-entry.rst:55
+msgid "1 Bicycle: Warehouse → Scrap"
+msgstr "1 bicicleta: almacén de chatarra →"
+
+#: ../../double-entry.rst:58
+msgid "Scrap: Scrap Location when creating the scrapping"
+msgstr "Desecho: Chatarra ubicación cuando se crea el desguace"
+
+#: ../../double-entry.rst:64
+msgid "Inventory"
+msgstr "Inventario"
+
+#: ../../double-entry.rst:60
+msgid "Missing products in inventory"
+msgstr "Faltantes productos en inventario"
+
+#: ../../double-entry.rst:61
+msgid "1 Bicycle: Warehouse → Inventory Loss"
+msgstr "1 bicicleta: → pérdida de inventario del almacén"
+
+#: ../../double-entry.rst:62
+msgid "Extra products in inventory"
+msgstr "Más productos en inventario"
+
+#: ../../double-entry.rst:63
+msgid "1 Bicycle: Inventory Loss → Warehouse"
+msgstr "1 bicicleta: pérdida → almacén de inventario"
+
+#: ../../double-entry.rst:65
+msgid "Inventory Loss: \"Inventory Location\" field on the product"
+msgstr "Pérdida de inventario: \"Inventario\" campo sobre el producto"
+
+#: ../../double-entry.rst:72
+msgid "Reception"
+msgstr "Recepción"
+
+#: ../../double-entry.rst:0
+msgid "1 Bicycle: Supplier → Input"
+msgstr "1 bicicleta: entrada → proveedor"
+
+#: ../../double-entry.rst:0
+msgid "1 Bicycle: Input → Stock"
+msgstr "1 bicicleta: entrada Stock →"
+
+#: ../../double-entry.rst:0
+msgid "Supplier: purchase order supplier"
+msgstr "Proveedor: proveedor de orden de compra"
+
+#: ../../double-entry.rst:0
+msgid "Input: \"destination\" field on the purchase order"
+msgstr "Entrada: campo \"destino\" en la orden de compra"
+
+#: ../../double-entry.rst:75
+msgid "Analysis"
+msgstr "Análisis"
+
+#: ../../double-entry.rst:77
+msgid ""
+"Inventory analysis can use products count or products value (= number of "
+"products * product cost)."
+msgstr ""
+"Análisis de inventario pueden utilizar productos Conde o productos de valor "
+"(= número de productos * coste del producto)."
+
+#: ../../double-entry.rst:80
+msgid "For each inventory location, multiple data points can be analysed:"
+msgstr ""
+"Para cada ubicación de inventario, múltiples puntos de datos pueden ser "
+"analizados:"
+
+#: ../../double-entry.rst:148
+msgid "Procurements & Procurement Rules"
+msgstr "Contrataciones & reglas de contratación"
+
+#: ../../double-entry.rst:150
+msgid ""
+"A procurement is a request for a specific quantity of products to a "
+"specific location. They can be created manually or automatically triggered "
+"by:"
+msgstr ""
+"Una contratación es una petición para una cantidad determinada de productos "
+"en una ubicación específica. Pueden crear manualmente o automáticamente "
+"desencadenada por:"
+
+#: ../../double-entry.rst:159
+msgid "New sale orders"
+msgstr "Nuevos pedidos de venta"
+
+#: ../../double-entry.rst:157 ../../double-entry.rst:162
+#: ../../double-entry.rst:168
+msgid "Effect"
+msgstr "Efecto"
+
+#: ../../double-entry.rst:157
+msgid ""
+"A procurement is created at the customer location for every product ordered "
+"by the customer (you have to deliver the customer)"
+msgstr ""
+"Una contratación se crea en la ubicación del cliente para cada producto "
+"pedido por el cliente (tienes para entregar al cliente)"
+
+#: ../../double-entry.rst:159 ../../double-entry.rst:164
+msgid "Configuration"
+msgstr "Configuración"
+
+#: ../../double-entry.rst:160
+msgid ""
+"Procurement Location: on the customer, field “Customer Location” (property)"
+msgstr ""
+"Lugar de adquisición: en el cliente, campo \"Ubicación del cliente"
+"\" (propiedad)"
+
+#: ../../double-entry.rst:164
+msgid "Minimum Stock Rules"
+msgstr "Reglas de existencias mínimas"
+
+#: ../../double-entry.rst:163
+msgid "A procurement is created at the rule's location."
+msgstr "Se crea una contratación en lugar de la regla."
+
+#: ../../double-entry.rst:165
+msgid "Procurement location: on the rule, field \"Location\""
+msgstr "Lugar de adquisición: en la regla, campo \"Ubicación\""
+
+#: ../../double-entry.rst:168
+msgid "Procurement rules"
+msgstr "Reglas de abastecimiento"
+
+#: ../../double-entry.rst:168
+msgid "A new procurement is created on the rule's source location"
+msgstr "Se crea una nueva contratación en ubicación de origen de la regla"
+
+#: ../../double-entry.rst:170
+msgid ""
+"*Procurement rules* describe how procurements on specific locations should "
+"be fulfilled e.g.:"
+msgstr ""
+"* Contratación reglas * describir cómo deben cumplirse por ejemplo "
+"contrataciones en lugares específicos:"
+
+#: ../../double-entry.rst:173
+msgid "where the product should come from (source location)"
+msgstr "donde el producto debería provenir de (ubicación de la fuente)"
+
+#: ../../double-entry.rst:174
+msgid ""
+"whether the procurement is :abbr:`MTO (Made To Order)` or :abbr:`MTS (Made "
+"To Stock)`"
+msgstr ""
+"Si la adquisición es: abbr: 'MTO (hechas a pedido)' o: abbr: 'MTS (hecha a "
+"Stock)'"
+
+#: ../../double-entry.rst:182
+msgid "Routes"
+msgstr "Rutas"
+
+#: ../../double-entry.rst:184
+msgid ""
+"Procurement rules are grouped in routes. Routes define paths the product "
+"must follow. Routes may be applicable or not, depending on the products, "
+"sales order lines, warehouse,..."
+msgstr ""
+"Reglas de contratación se agrupan en las rutas. Rutas definen caminos que "
+"debe seguir el producto. Las rutas pueden ser aplicables o no, dependiendo "
+"de los productos, las líneas de pedido de ventas, almacén..."
+
+#: ../../double-entry.rst:188
+msgid ""
+"To fulfill a procurement, the system will search for rules belonging to "
+"routes that are defined in (by order of priority):"
+msgstr ""
+"Para cumplir con una contratación pública, el sistema buscará las reglas "
+"pertenecientes a las rutas definidas en (por orden de prioridad):"
+
+#: ../../double-entry.rst:202
+msgid "Warehouses"
+msgstr "Almacenes"
+
+#: ../../double-entry.rst:194
+msgid "Warehouse Route Example: Pick → Pack → Ship"
+msgstr "Ejemplo de ruta de almacén: Elegir → Pack → nave"
+
+#: ../../double-entry.rst:196
+msgid "Picking List:"
+msgstr "Conduce"
+
+#: ../../double-entry.rst:197
+msgid "Pick Zone → Pack Zone"
+msgstr "Pick zona → Pack"
+
+#: ../../double-entry.rst:198
+msgid "Pack List:"
+msgstr "Lista del paquete:"
+
+#: ../../double-entry.rst:199
+msgid "Pack Zone → Gate A"
+msgstr "Pack zona → puerta A"
+
+#: ../../double-entry.rst:201
+msgid "Delivery Order:"
+msgstr "orden de entrega"
+
+#: ../../double-entry.rst:201
+msgid "Gate A → Customer"
+msgstr "Un cliente → la puerta"
+
+#: ../../double-entry.rst:203
+msgid ""
+"Routes that describe how you organize your warehouse should be defined on "
+"the warehouse."
+msgstr ""
+"Las rutas que describen cómo organizas tu almacén deben definirse en el "
+"almacén."
+
+#: ../../double-entry.rst:212
+msgid "A Product"
+msgstr "Un producto"
+
+#: ../../double-entry.rst:205
+msgid "Product Route Example: Quality Control"
+msgstr "Ejemplo de ruta de producto: Control de calidad"
+
+#: ../../double-entry.rst:207 ../../double-entry.rst:217
+msgid "Reception:"
+msgstr "Recepción"
+
+#: ../../double-entry.rst:208 ../../double-entry.rst:218
+msgid "Supplier → Input"
+msgstr "Proveedor → Input"
+
+#: ../../double-entry.rst:209
+msgid "Confirmation:"
+msgstr "Confirmación"
+
+#: ../../double-entry.rst:210
+msgid "Input → Quality Control"
+msgstr "Control de calidad de entrada →"
+
+#: ../../double-entry.rst:212
+msgid "Storage:"
+msgstr "Almacenamiento:"
+
+#: ../../double-entry.rst:212
+msgid "Quality Control → Stock"
+msgstr "Control de calidad"
+
+#: ../../double-entry.rst:221
+msgid "Product Category"
+msgstr "Categoría de producto"
+
+#: ../../double-entry.rst:215
+msgid "Product Category Route Example: cross-dock"
+msgstr ""
+
+#: ../../double-entry.rst:219
+msgid "Cross-Docks:"
+msgstr "Sin almacenaje intermedio (cross dock)"
+
+#: ../../double-entry.rst:220
+msgid "Input → Output"
+msgstr ""
+"Un inventario de la partida doble no tiene entrada de stock, salida "
+"(disparition de productos) o transformación. En cambio, todas las "
+"operaciones son movimientos de stock entre ubicaciones (posiblemente "
+"virtuales)."
+
+#: ../../double-entry.rst:221
+msgid "Delivery:"
+msgstr "Entrega"
+
+#: ../../double-entry.rst:222
+msgid "Output → Customer"
+msgstr "Salida"
+
+#: ../../double-entry.rst:227
+msgid "Sale Order Line"
+msgstr "Línea pedido de venta"
+
+#: ../../double-entry.rst:224
+msgid "Sale Order Line Example: Drop-shipping"
+msgstr ""
+
+#: ../../double-entry.rst:227
+msgid "Order:"
+msgstr "Pedido "
+
+#: ../../double-entry.rst:227
+msgid "Supplier → Customer"
+msgstr ""
+"Podrá editar y validar esta factura rectificativa directamente o mantenerla "
+"como borrador, esperando a que el documento sea expedido por su cliente/"
+"proveedor."
+
+#: ../../double-entry.rst:230
+msgid "Push Rules"
+msgstr "Reglas push"
+
+#: ../../double-entry.rst:232
+msgid ""
+"Push rules trigger when products enter a specific location. They "
+"automatically move the product to a new location. Whether a push rule can "
+"be used depends on applicable routes."
+msgstr ""
+"Empuje gatillo reglas cuando los productos entran en una ubicación "
+"específica. Se mueve automáticamente el producto a una nueva ubicación. Si "
+"puede utilizar una regla de empuje depende de las rutas aplicables."
+
+#: ../../double-entry.rst:240
+msgid "Quality Control"
+msgstr "Control de calidad"
+
+#: ../../double-entry.rst:239
+msgid "Product lands in Input"
+msgstr "Producto relacionado con este costo"
+
+#: ../../double-entry.rst:240
+msgid "Push 1: Input → Quality Control"
+msgstr "Empuje 1: Control de calidad entrada →"
+
+#: ../../double-entry.rst:241
+msgid "Push 2: Quality Control → Stock"
+msgstr "Empuje 2: Control de calidad → Stock"
+
+#: ../../double-entry.rst:244
+msgid "Warehouse Transit"
+msgstr "Ubicación de tránsito"
+
+#: ../../double-entry.rst:243
+msgid "Product lands in Transit"
+msgstr "Producto aterriza en tránsito"
+
+#: ../../double-entry.rst:244
+msgid "Push: Transit → Warehouse 2"
+msgstr "Empuje: Tránsito → almacén 2"
+
+#: ../../double-entry.rst:247
+msgid "Procurement Groups"
+msgstr "Grupos de compras"
+
+#: ../../double-entry.rst:249
+msgid ""
+"Routes and rules define inventory moves. For every rule, a document type is "
+"provided:"
+msgstr ""
+"Rutas y reglas definen movimientos de inventario. Para cada regla, se "
+"proporciona un tipo de documento:"
+
+#: ../../double-entry.rst:252
+msgid "Picking"
+msgstr "Conduce"
+
+#: ../../double-entry.rst:253
+msgid "Packing"
+msgstr "Envasado"
+
+#: ../../double-entry.rst:254
+msgid "Delivery Order"
+msgstr "orden de entrega"
+
+#: ../../double-entry.rst:255
+msgid "Purchase Order"
+msgstr "Orden de compra"
+
+#: ../../double-entry.rst:256
+msgid "..."
+msgstr "..."
+
+#: ../../double-entry.rst:258
+msgid ""
+"Moves are grouped within the same document type if their procurement group "
+"and locations are the same."
+msgstr ""
+"Movimientos se agrupan dentro del mismo tipo de documento si su grupo de "
+"adquisiciones y ubicaciones son las mismas."
+
+#: ../../double-entry.rst:261
+msgid ""
+"A sale order creates a procurement group so that pickings and delivery "
+"orders of the same order are grouped. But you can define specific groups on "
+"reordering rules too. (e.g. to group purchases of specific products "
+"together)"
+msgstr ""
+"Una orden de venta crea un grupo de adquisiciones para que se agrupan una "
+"presa y pedidos del mismo orden. Pero se pueden definir grupos específicos "
+"sobre la reordenación de las reglas también. (por ejemplo en compras de "
+"grupo de productos específicos juntos)"

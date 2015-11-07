@@ -1,0 +1,519 @@
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Odoo Business 0.1\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2015-05-02 13:55-0400\n"
+"PO-Revision-Date: 2015-05-02 14:31-0400\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Last-Translator: Eneldo Serrata <eneldoserrata@gmail.com>\n"
+"Language-Team: \n"
+"Language: es_DO\n"
+"X-Generator: Poedit 1.7.6\n"
+
+#: ../../valuation.rst:5
+msgid "Inventory Valuations"
+msgstr "Valoración de inventario"
+
+#: ../../valuation.rst:8
+msgid "Costing Method"
+msgstr "Método de coste"
+
+#: ../../valuation.rst:10
+msgid ""
+"International accounting standards define several ways to compute product "
+"costs:"
+msgstr ""
+"Normas internacionales de contabilidad definen varias formas de calcular "
+"los costos del producto:"
+
+#: ../../valuation.rst:52
+msgid "Standard Price"
+msgstr "Precio estándar"
+
+#: ../../valuation.rst:23 ../../valuation.rst:62 ../../valuation.rst:101
+#: ../../valuation.rst:140
+msgid "Operation"
+msgstr "Operación"
+
+#: ../../valuation.rst:24 ../../valuation.rst:63 ../../valuation.rst:102
+#: ../../valuation.rst:141
+msgid "Unit Cost"
+msgstr "Coste unitario"
+
+#: ../../valuation.rst:25 ../../valuation.rst:64 ../../valuation.rst:103
+#: ../../valuation.rst:142
+msgid "Qty On Hand"
+msgstr "Qty en mano"
+
+#: ../../valuation.rst:26 ../../valuation.rst:65 ../../valuation.rst:104
+#: ../../valuation.rst:143
+msgid "Delta Value"
+msgstr "Valor"
+
+#: ../../valuation.rst:27 ../../valuation.rst:66 ../../valuation.rst:105
+#: ../../valuation.rst:144
+msgid "Inventory Value"
+msgstr "Valor del inventario"
+
+#: ../../valuation.rst:29 ../../valuation.rst:34 ../../valuation.rst:39
+#: ../../valuation.rst:44 ../../valuation.rst:50 ../../valuation.rst:73
+#: ../../valuation.rst:112 ../../valuation.rst:151 ../../valuation.rst:161
+msgid "$10"
+msgstr "$10"
+
+#: ../../valuation.rst:30 ../../valuation.rst:69 ../../valuation.rst:108
+#: ../../valuation.rst:147
+msgid "0"
+msgstr ""
+"red:virtual_available<0;blue:virtual_available>=0 and state in ('draft', "
+"'end', 'obsolete');black:virtual_available>=0 and state not in ('draft', "
+"'end', 'obsolete')"
+
+#: ../../valuation.rst:32 ../../valuation.rst:68 ../../valuation.rst:71
+#: ../../valuation.rst:107 ../../valuation.rst:110 ../../valuation.rst:146
+#: ../../valuation.rst:149
+msgid "$0"
+msgstr "$0"
+
+#: ../../valuation.rst:33 ../../valuation.rst:72 ../../valuation.rst:111
+#: ../../valuation.rst:150
+msgid "Receive 8 Products at $10"
+msgstr "Recibir 8 productos a $10"
+
+#: ../../valuation.rst:35 ../../valuation.rst:74 ../../valuation.rst:113
+#: ../../valuation.rst:152
+msgid "8"
+msgstr "8"
+
+#: ../../valuation.rst:36 ../../valuation.rst:75 ../../valuation.rst:114
+#: ../../valuation.rst:153
+msgid "+8*$10"
+msgstr "+8*$10"
+
+#: ../../valuation.rst:37 ../../valuation.rst:76 ../../valuation.rst:115
+#: ../../valuation.rst:154
+msgid "$80"
+msgstr "$80"
+
+#: ../../valuation.rst:38 ../../valuation.rst:77 ../../valuation.rst:116
+#: ../../valuation.rst:155
+msgid "Receive 4 Products at $16"
+msgstr "Recibir 4 productos en $16"
+
+#: ../../valuation.rst:40 ../../valuation.rst:79 ../../valuation.rst:118
+#: ../../valuation.rst:157
+msgid "12"
+msgstr "12"
+
+#: ../../valuation.rst:41
+msgid "+4*$10"
+msgstr "+ 4 * $10"
+
+#: ../../valuation.rst:42
+msgid "$120"
+msgstr "$120"
+
+#: ../../valuation.rst:43 ../../valuation.rst:121 ../../valuation.rst:160
+msgid "Deliver 10 Products"
+msgstr "Entregar 10 productos"
+
+#: ../../valuation.rst:45 ../../valuation.rst:84 ../../valuation.rst:123
+#: ../../valuation.rst:162
+msgid "2"
+msgstr "2"
+
+#: ../../valuation.rst:0
+msgid "-10*$10"
+msgstr "-10*$10"
+
+#: ../../valuation.rst:48 ../../valuation.rst:165
+msgid "$20"
+msgstr "$20"
+
+#: ../../valuation.rst:49
+msgid "Receive 2 Products at $9"
+msgstr "Recibir 2 productos en $9"
+
+#: ../../valuation.rst:51 ../../valuation.rst:90 ../../valuation.rst:129
+#: ../../valuation.rst:168
+msgid "4"
+msgstr "4"
+
+#: ../../valuation.rst:52
+msgid "+2*$10"
+msgstr "+ 2 * $10"
+
+#: ../../valuation.rst:53
+msgid "$40"
+msgstr "$40"
+
+#: ../../valuation.rst:91
+msgid "Average Price"
+msgstr "Precio promedio"
+
+#: ../../valuation.rst:78 ../../valuation.rst:83 ../../valuation.rst:117
+#: ../../valuation.rst:156
+msgid "$12"
+msgstr "$12"
+
+#: ../../valuation.rst:80 ../../valuation.rst:119 ../../valuation.rst:158
+msgid "+4*$16"
+msgstr "+ 4 * $16"
+
+#: ../../valuation.rst:81 ../../valuation.rst:120 ../../valuation.rst:159
+msgid "$144"
+msgstr "$144"
+
+#: ../../valuation.rst:82
+msgid "Deliver 10 Products [#average-removal]_"
+msgstr "Entregar 10 _ productos [#average-retiro]"
+
+#: ../../valuation.rst:0
+msgid "-10*$12"
+msgstr "-10 * $12"
+
+#: ../../valuation.rst:87
+msgid "$24"
+msgstr "$24"
+
+#: ../../valuation.rst:88 ../../valuation.rst:127 ../../valuation.rst:166
+msgid "Receive 2 Products at $6"
+msgstr "Recibir 2 productos a $6"
+
+#: ../../valuation.rst:89
+msgid "$9"
+msgstr "$9"
+
+#: ../../valuation.rst:91 ../../valuation.rst:130 ../../valuation.rst:169
+msgid "+2*$6"
+msgstr "+2 * $6"
+
+#: ../../valuation.rst:92
+msgid "$36"
+msgstr "$  36"
+
+#: ../../valuation.rst:130
+msgid "FIFO"
+msgstr "FIFO"
+
+#: ../../valuation.rst:122
+msgid "$16"
+msgstr "$16"
+
+#: ../../valuation.rst:0
+msgid "-8*$10"
+msgstr "-8 * $10"
+
+#: ../../valuation.rst:0
+msgid "-2*$16"
+msgstr "-2 * $16"
+
+#: ../../valuation.rst:126 ../../valuation.rst:170
+msgid "$32"
+msgstr "$32"
+
+#: ../../valuation.rst:128
+msgid "$11"
+msgstr "$11"
+
+#: ../../valuation.rst:131
+msgid "$44"
+msgstr "$44"
+
+#: ../../valuation.rst:170
+msgid "LIFO (not accepted in IFRS)"
+msgstr "LIFO (no se aceptan en IFRS)"
+
+#: ../../valuation.rst:0
+msgid "-4*$16"
+msgstr "-4 * $16"
+
+#: ../../valuation.rst:0
+msgid "-6*$10"
+msgstr "-6 * $10"
+
+#: ../../valuation.rst:167
+msgid "$8"
+msgstr "$8"
+
+#: ../../valuation.rst:172
+msgid ""
+"The costing method is defined on the product form: standard, average or "
+"real price."
+msgstr ""
+"El método de costeo se define en el formulario del producto: precio "
+"estándar, media o real."
+
+#: ../../valuation.rst:175
+msgid ""
+"For \"real price\", the costing is further refined by the removal strategy "
+"(on the warehouse location or product category), FIFO by default."
+msgstr ""
+"Por \"precio real\", la cuesta se refina de nuevo por la estrategia de "
+"eliminación (en la localización o producto categoría almacén), FIFO por "
+"defecto."
+
+#: ../../valuation.rst:179
+msgid "Periodic Inventory Valuation"
+msgstr "Valuación de inventario periódico"
+
+#: ../../valuation.rst:181
+msgid ""
+"In a periodic inventory valuation, goods reception and outgoing shipments "
+"have no direct impact in the accounting. At the end of the month or year, "
+"the accountant post one journal entry representing the value of the "
+"physical inventory."
+msgstr ""
+"En una valuación de inventario periódico, mercancías recepción y envíos "
+"salientes no tienen ningún impacto directo en la contabilidad. Al final del "
+"mes o del año, el contador publicar una entrada de diario que representa el "
+"valor del inventario físico."
+
+#: ../../valuation.rst:208
+msgid "Supplier Invoice"
+msgstr "Factura de proveedor"
+
+#: ../../valuation.rst:192 ../../valuation.rst:216
+msgid "\\"
+msgstr "\\"
+
+#: ../../valuation.rst:192 ../../valuation.rst:216
+msgid "Debit"
+msgstr "Débito"
+
+#: ../../valuation.rst:192 ../../valuation.rst:216
+msgid "Credit"
+msgstr "Crédito"
+
+#: ../../valuation.rst:194 ../../valuation.rst:221
+msgid "Assets: Inventory"
+msgstr "Activos: inventario"
+
+#: ../../valuation.rst:194 ../../valuation.rst:221 ../../valuation.rst:222
+msgid "50"
+msgstr "50"
+
+#: ../../valuation.rst:195
+msgid "Assets: Deferred Tax Assets"
+msgstr "Activos: Activos por impuestos diferidos"
+
+#: ../../valuation.rst:195
+msgid "4.68"
+msgstr "4,68"
+
+#: ../../valuation.rst:196
+msgid "Liabilities: Accounts Payable"
+msgstr "Pasivo: Cuentas por pagar"
+
+#: ../../valuation.rst:196
+msgid "54.68"
+msgstr "54.68"
+
+#: ../../valuation.rst:203 ../../valuation.rst:229
+msgid "Explanation:"
+msgstr "Explicación:"
+
+#: ../../valuation.rst:200
+msgid "A temporary account is used to note goods to receive"
+msgstr "Se utiliza una cuenta temporal señalar bienes para recibir"
+
+#: ../../valuation.rst:201
+msgid ""
+"The purchase order provides prices of goods, the actual invoice may include "
+"extra costs such as shipping"
+msgstr ""
+"La orden de compra ofrece precios de los bienes, la factura real puede "
+"incluir costos adicionales como envío"
+
+#: ../../valuation.rst:203
+msgid ""
+"The company still needs to pay the vendor (traded an asset against a "
+"liability)"
+msgstr ""
+"Necesidades aún de las empresas a pagar al vendedor (negocian un activo "
+"contra un pasivo)"
+
+#: ../../valuation.rst:208 ../../valuation.rst:237
+msgid "Configuration:"
+msgstr "Configuración"
+
+#: ../../valuation.rst:206
+msgid ""
+"Inventory: defined on the product or the category of related product, "
+"field: Stock Input Account"
+msgstr ""
+"Inventario: definido en el producto o la categoría de producto relacionado, "
+"campo: cuenta de entrada de la reserva"
+
+#: ../../valuation.rst:208
+msgid ""
+"Deferred Tax Assets: defined on the tax used on the purchase order line"
+msgstr ""
+"Los activos por impuestos diferidos: definido sobre el impuesto en la línea "
+"de orden de compra"
+
+#: ../../valuation.rst:209
+msgid "Accounts Payable: defined on the supplier related to the bill"
+msgstr ""
+"Cuentas por pagar: definido en el proveedor relacionado con el proyecto de "
+"ley"
+
+#: ../../valuation.rst:210
+msgid "Goods Receptions"
+msgstr "Recepciones de mercancías"
+
+#: ../../valuation.rst:211 ../../valuation.rst:242 ../../valuation.rst:244
+msgid "No Journal Entry"
+msgstr "No hay entrada de diario"
+
+#: ../../valuation.rst:239
+msgid "Customer Invoice"
+msgstr "Factura de Cliente"
+
+#: ../../valuation.rst:218
+msgid "Revenue: Goods"
+msgstr "Ingresos: mercancías"
+
+#: ../../valuation.rst:218
+msgid "100"
+msgstr "100"
+
+#: ../../valuation.rst:219
+msgid "Liabilities: Deferred Tax Liabilities"
+msgstr "Pasivos: Pasivos por impuestos diferidos"
+
+#: ../../valuation.rst:219
+msgid "9"
+msgstr "9"
+
+#: ../../valuation.rst:220
+msgid "Assets: Accounts Receivable"
+msgstr "Activos: Cuentas por cobrar"
+
+#: ../../valuation.rst:220
+msgid "109"
+msgstr "109"
+
+#: ../../valuation.rst:222
+msgid "Expenses: Cost of Goods Sold"
+msgstr "Gastos: Costo de la mercancía vendida"
+
+#: ../../valuation.rst:226
+msgid "Revenues increase by $100"
+msgstr "Aumento de ingresos por $100"
+
+#: ../../valuation.rst:227
+msgid "A tax to pay at the end of the month of $9"
+msgstr "Un impuesto a pagar al final del mes de $9"
+
+#: ../../valuation.rst:228
+msgid "The customer owns you $109"
+msgstr "El cliente posee te $109"
+
+#: ../../valuation.rst:229
+msgid "The inventory is decreased by $50 (shipping of the goods)"
+msgstr "El inventario es disminuido por $50 (envío de la mercancía)"
+
+#: ../../valuation.rst:230
+msgid "The cost of goods sold decreases the gross profit by $50"
+msgstr "El costo de la mercancía vendida disminuye el beneficio bruto por $50"
+
+#: ../../valuation.rst:232
+msgid ""
+"Revenue: defined on the product, or the product category if not on the "
+"product, field Income Account"
+msgstr ""
+"Ingresos: define el producto o la categoría del producto prendido el "
+"producto, campo de ingreso en cuenta"
+
+#: ../../valuation.rst:234
+msgid "Deferred Tax Liabilities: defined on the tax used on the invoice line"
+msgstr ""
+"Pasivos por impuestos diferidos: define el impuesto utilizado en la línea "
+"de factura"
+
+#: ../../valuation.rst:235
+msgid "Accounts Receivable: defined on the customer (property)"
+msgstr "Cuentas por cobrar: definido en el cliente (propiedad)"
+
+#: ../../valuation.rst:236
+msgid "Inventory: defined on the category of the related product (property)"
+msgstr ""
+"Inventario: definido en la categoría de los relacionados con el producto "
+"(propiedad)"
+
+#: ../../valuation.rst:237
+msgid ""
+"Expenses: defined on the product, or the category of product (property)"
+msgstr ""
+"Gastos: definido en el producto, o la categoría del producto (propiedad)"
+
+#: ../../valuation.rst:239
+msgid ""
+"The fiscal position used on the invoice may have a rule that replaces the "
+"Income Account or the tax defined on the product by another one."
+msgstr ""
+"La situación fiscal en la factura puede tener una regla que sustituye a la "
+"cuenta de ingresos o los impuestos definidos en el producto por otro."
+
+#: ../../valuation.rst:241
+msgid "Customer Shipping"
+msgstr "Envío del cliente"
+
+#: ../../valuation.rst:244
+msgid "Manufacturing Orders"
+msgstr "Ordenes de Producción, Lista de Materiales, Rutas"
+
+#: ../../valuation.rst:250
+msgid ""
+"At the end of the month/year, the company do a physical inventory (or just "
+"rely on the inventory in Odoo). They multiply the quantity of each product "
+"by its cost to know the inventory value of the company."
+msgstr ""
+"Al final del mes/año, la empresa hacer un inventario físico (o simplemente "
+"confiar en el inventario en Odoo). Se multiplica la cantidad de cada "
+"producto por su costo para conocer el valor de inventario de la empresa."
+
+#: ../../valuation.rst:256
+msgid ""
+"If the real value of the inventory is $4800 but the *14000 Inventory* "
+"account has a balance of $4200, the following journal entry is created "
+"manually:"
+msgstr ""
+"Si el valor real del inventario es $4800 pero el * 14000 inventario * "
+"cuenta tiene un saldo de $4200, se crea la siguiente entrada de diario "
+"manualmente:"
+
+#: ../../valuation.rst:263
+msgid "14000 Inventory"
+msgstr "Inventario 14000"
+
+#: ../../valuation.rst:263 ../../valuation.rst:264
+msgid "$600"
+msgstr "$600"
+
+#: ../../valuation.rst:264
+msgid "14700 Inventory Variations"
+msgstr "14700 variaciones de inventario"
+
+#: ../../valuation.rst:268
+msgid "Perpetual Inventory Valuation"
+msgstr "Valuación de inventario perpetuo"
+
+#: ../../valuation.rst:270
+msgid ""
+"In a perpetual inventory valuation, goods reception and outgoing shipments "
+"are directly posted in the accounting. The inventory valuation is always up-"
+"to-date."
+msgstr ""
+"En una valuación de inventario perpetuo, mercancías recepción y envíos "
+"salientes se registran directamente en la contabilidad. La valuación del "
+"inventario siempre está actualizada."
+
+#: ../../valuation.rst:278
+msgid "products leaving the stock have no impact on the average price."
+msgstr ""
+"productos que salen de las acciones no tienen impacto en el precio promedio."
